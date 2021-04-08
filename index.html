@@ -128,7 +128,7 @@
                           <h2>ToDo List</h2>
                           <h3>JavaScript</h3>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod debitis at iusto temporibus omnis pariatur culpa aspernatur. </p>
-                          <button>Saiba Mais</button>
+                          <button class="btn">Saiba Mais</button>
                       </div>
                   </div>
                   <div class="card">
@@ -139,7 +139,7 @@
                           <h2>Fotografo</h2>
                           <h3>Fotografia e Designer</h3>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit explicabo dicta repellendus eos tempore reprehenderit, .</p>
-                          <button>Saiba Mais</button>
+                          <button class="btn">Saiba Mais</button>
                       </div>
                     </div>
                     <div class="card">
@@ -151,13 +151,63 @@
                           <h3>BlackHat & WhiteHat</h3>
                           <p>Depende do seu bolso! 
                               <br>ipsum dolor, sit amet consectetur adipisicing elit. Mollitia excepturi repudiandae nisi,.</p>
-                          <button>Saiba Mais</button>
+                          <button class="btn">Saiba Mais</button>
                       </div>
                   </div>
                 </div>
               </div>
 
           </section>
+
+          
+            <section class="sessao-contato">
+                <div class="contato-wrapper">
+                    <div class="contato-left"></div>
+                    <div class="contato-rigth">
+                        <h1>Contato</h1>
+                        <form>
+                            <div class="input-group">
+                                <input type="text" class="field" id="nome">
+                                <label for="nome" class="field-label">Nome</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" class="field" id="email">
+                                <label id="email" class="field-label">E-mail</label>
+                            </div>
+                            <div class="input-group">
+                                <textarea class="field" id="menssagem"></textarea>
+                                <label id="menssagem" class="field-label">Mensagem</label>
+                            </div>
+                            <button type="submit" class="btn btn-subbimit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="sessao-orcamento">
+                <div class="orcamento-wrapper">
+                    <h1>Faça um orçamento</h1>
+                    <form>
+                        <label for="qtd">Quantida de Pag.</label>
+                        <input type="number" min="1" name="qtd" id="qtd">
+                        <label for="js">Preciso de um script JavaScript</label>
+                        <input type="checkbox" name="js" id="js">
+                        <label>Layout</label>
+                        <div class="group-layout">
+                        <div>
+                            <input type="radio" name="layout" id="layout-sim">
+                            <label for="layout-sim">Preciso de um Layout</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-nao">Já tenho um Layout</label>  
+                        </div>
+                        <label for="prazo">Prazo</label>
+                        <input type="range" name="prazo" id="prazo">
+                        <button class="btn btn-orcamento" type="submit">Enviar</button>
+                        </div>
+                     </form>
+                </div>
+            </section>
 
     </div>  
 <!--comiit-->
